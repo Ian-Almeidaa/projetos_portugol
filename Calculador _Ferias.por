@@ -13,7 +13,7 @@ programa {
     linha_codigo()
     escreva("\nVamos calcular o seu tempo de férias e o desconto das férias\n")
     linha_codigo()
-    escreva("\n\nQual o mês desejado de férias: ")
+    escreva("\n\nQual o mês desejado de férias (números): ")
     leia(mFerias)
     limpa()
 
@@ -79,7 +79,7 @@ programa {
   }
 
   funcao ver_cpf(){
-        inteiro cpf[11], nWCpf[11], somat = 0, procuraVetor = 0, resto = 0
+        inteiro cpf[11], somat = 0, procuraVetor = 0, resto = 0
     caracter digito
     cadeia cpfCompleto
 
