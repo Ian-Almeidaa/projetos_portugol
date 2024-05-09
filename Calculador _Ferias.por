@@ -107,7 +107,7 @@ programa {
  		        se (cpf[10] == 0){
               //segundo teste validador POSITIVO
  			        escreva("\nSeja Bem Vindo(a) a ferias.com\n")
-              ferias()
+              			ferias()
             
  		        }  
             senao {
@@ -121,7 +121,7 @@ programa {
     		    se (resto == cpf[10]){
               //segundo teste validador POSITIVO
     		      escreva("\nSeja Bem Vindo(a) a ferias.com\n")	
-              ferias()
+              		ferias()
     	      } 
             senao{
               //segundo teste validador NEGATIVO
