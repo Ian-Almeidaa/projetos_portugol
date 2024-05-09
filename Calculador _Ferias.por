@@ -107,13 +107,13 @@ programa {
  		        se (cpf[10] == 0){
               //segundo teste validador POSITIVO
  			        escreva("\nSeja Bem Vindo(a) a ferias.com\n")
-              retorne verdadeiro
+              ferias()
             
  		        }  
             senao {
               //segundo teste validador NEGATIVO
  			        escreva("\nCPF inválido, acesso negado\n")
-              retorne falso
+              
  		              }                  
     	    } 
           senao {
@@ -121,12 +121,12 @@ programa {
     		    se (resto == cpf[10]){
               //segundo teste validador POSITIVO
     		      escreva("\nSeja Bem Vindo(a) a ferias.com\n")	
-              retorne verdadeiro
+              ferias()
     	      } 
             senao{
               //segundo teste validador NEGATIVO
     		      escreva("\nCPF inválido, acesso negado\n")
-              retorne falso
+              
     		      }
     	      }
           linha_codigo()
@@ -135,8 +135,8 @@ programa {
   funcao inicio() {
     linha_codigo()
     escreva("\nVamos verificar se você é uma pessoa existente.\n")
-    se (ver_cpf()){
-      ferias()
-    }
+    ver_cpf()
+
+
   }
 }
